@@ -14,7 +14,7 @@ client.on('ready', () => {
     }
 })
 
-client.login('N3F1Ix8NjCtAwaUF0YRN-zwksKTdhC8o');
+client.login('token')
 
 client.on('message' , message =>{
     if(message.content === "tu fais quoi" || message.content.startsWith(prefix+"tfk") || message.content.startsWith(prefix+"tu fais quoi")){
